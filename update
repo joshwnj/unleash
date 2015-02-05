@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo su deploy
+npm install
+bower install
+grunt build
